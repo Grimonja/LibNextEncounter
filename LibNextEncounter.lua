@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibNextEncounter", 1;
+local MAJOR, MINOR = "LibNextEncounter", 2;
 local lib = LibStub:NewLibrary(MAJOR, MINOR);
 
 if not lib then return end
@@ -21,7 +21,20 @@ local engageTable =
 	[2431] = {175730},									-- Fatescribe Roh Kalo
 	[2422] = {175559, 176703, 176973, 176974, 176929},	-- KelThuzad
 	[2435] = {175732},									-- Sylvanas Windrunner
-};
+
+	-- SotFO
+	[2512] = {180773, 184445},							--Vigilant Guardian
+	[2542] = {181395},									--Skolex, the Insatiable Ravener
+	[2553] = {183501},									--Artificer Xy'mox
+	[2540] = {181224},									--Dausegne, the Fallen Oracle
+	[2544] = {181549, 181548, 181546, 181551},			--Prototype Pantheon
+	[2539] = {182169},									--Lihuvim, Principal Architect
+	[2529] = {180906},									--Halondrus the Reclaimer
+	[2546] = {181954},									--Anduin Wrynn
+	[2543] = {},										--Lords of Dread
+	[2549] = {},										--Rygelon
+	[2537] = {},										--The Jailer
+}
 
 local activationTable = {};
 for encounterID,mobIDs in pairs(engageTable) do
