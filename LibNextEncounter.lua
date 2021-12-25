@@ -50,7 +50,7 @@ local customCheck =
 };
 
 -- Zone Overrides -----------------------------------------------------------------------
-local zoneOverrides = 
+local zoneOverrides =
 {
 
 };
@@ -74,20 +74,12 @@ local function checkUnit(unit)
 						if(range <= (rangeOverride or defaultActivationRangeCheck))then
 
 							if(lastEncounterActivation ~= nil)then
-								lib.callbacks:Fire("LibNextEncounter_ENCOUNTER_CANCELED",lastEncounterActivation);
-
-								if(WeakAuras)then
-									WeakAuras.ScanEvents("ENCOUNTER_CANCELED",lastEncounterActivation);
-								end
+								lib.callbacks:Fire("ENCOUNTER_CANCELED",lastEncounterActivation);
 							end
 
 							lastEncounterActivation = encounterID;
 
-							lib.callbacks:Fire("LibNextEncounter_ENCOUNTER_SOON",encounterID,unit);
-
-							if(WeakAuras)then
-								WeakAuras.ScanEvents("ENCOUNTER_SOON",encounterID,unit);
-							end
+							lib.callbacks:Fire("ENCOUNTER_SOON",encounterID,unit);
 						end
 					end
 				end
