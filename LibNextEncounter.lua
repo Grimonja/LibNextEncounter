@@ -23,17 +23,17 @@ local engageTable =
 	[2435] = {175732},									-- Sylvanas Windrunner
 
 	-- SotFO
-	[2512] = {180773, 184445},							--Vigilant Guardian
-	[2542] = {181395},									--Skolex, the Insatiable Ravener
-	[2553] = {183501},									--Artificer Xy'mox
-	[2540] = {181224},									--Dausegne, the Fallen Oracle
-	[2544] = {181549, 181548, 181546, 181551},			--Prototype Pantheon
-	[2539] = {182169},									--Lihuvim, Principal Architect
-	[2529] = {180906},									--Halondrus the Reclaimer
-	[2546] = {181954},									--Anduin Wrynn
-	[2543] = {},										--Lords of Dread
-	[2549] = {},										--Rygelon
-	[2537] = {},										--The Jailer
+	[2512] = {180773, 184445},							-- Vigilant Guardian
+	[2542] = {181395},									-- Skolex, the Insatiable Ravener
+	[2553] = {183501},									-- Artificer Xy'mox
+	[2540] = {181224},									-- Dausegne, the Fallen Oracle
+	[2544] = {181549, 181548, 181546, 181551},			-- Prototype Pantheon
+	[2539] = {182169},									-- Lihuvim, Principal Architect
+	[2529] = {180906},									-- Halondrus the Reclaimer
+	[2546] = {181954},									-- Anduin Wrynn
+	[2543] = {},										-- Lords of Dread
+	[2549] = {},										-- Rygelon
+	[2537] = {},										-- The Jailer
 }
 
 local activationTable = {};
