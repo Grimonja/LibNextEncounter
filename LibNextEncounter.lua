@@ -31,10 +31,10 @@ local engageTable =
 	[2539] = {182169},									-- Lihuvim, Principal Architect
 	[2529] = {180906},									-- Halondrus the Reclaimer
 	[2546] = {181954},									-- Anduin Wrynn
-	[2543] = {},										-- Lords of Dread
-	[2549] = {},										-- Rygelon
-	[2537] = {},										-- The Jailer
-}
+	[2543] = {181399,181398},							-- Lords of Dread
+	[2549] = {182777},									-- Rygelon
+	[2537] = {180990},									-- The Jailer
+};
 
 local activationTable = {};
 for encounterID,mobIDs in pairs(engageTable) do
