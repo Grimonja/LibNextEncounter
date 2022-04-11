@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibNextEncounter", 2;
+local MAJOR, MINOR = "LibNextEncounter", 3;
 local lib = LibStub:NewLibrary(MAJOR, MINOR);
 
 if not lib then return end
