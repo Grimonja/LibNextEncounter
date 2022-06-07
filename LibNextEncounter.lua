@@ -10,6 +10,7 @@ local LibRangeCheck = LibStub("LibRangeCheck-2.0");
 
 local engageTable =
 {
+	---------- Raids ----------
 	-- SoD
 	[2423] = {175611}, 									-- The Tarragrue
 	[2429] = {177095, 177094, 175726},					-- The Nine
