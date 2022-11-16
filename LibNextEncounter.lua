@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibNextEncounter", 3;
+local MAJOR, MINOR = "LibNextEncounter", 4;
 local lib = LibStub:NewLibrary(MAJOR, MINOR);
 
 if not lib then return end
@@ -35,6 +35,16 @@ local engageTable =
 	[2543] = {181399,181398},							-- Lords of Dread
 	[2549] = {182777},									-- Rygelon
 	[2537] = {180990},									-- The Jailer
+
+	-- VotI
+	[2587] = {184972},									-- Eranog
+	[2639] = {190496},									-- Terros
+	[2590] = {187771,189816,187772,187767},				-- The Primal Council
+	[2592] = {187967},									-- Sennarth, The Cold Breath
+	[2635] = {189813},									-- Dathea, Ascended
+	[2605] = {184986},									-- Kurog Grimtotem
+	[2614] = {190245},									-- Broodkeeper Diurna
+	[2607] = {182492},									-- Raszageth the Storm-Eater
 };
 
 local activationTable = {};
