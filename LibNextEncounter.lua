@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibNextEncounter", 4;
+local MAJOR, MINOR = "LibNextEncounter", 5;
 local lib = LibStub:NewLibrary(MAJOR, MINOR);
 
 if not lib then return end
@@ -45,6 +45,17 @@ local engageTable =
 	[2605] = {184986},									-- Kurog Grimtotem
 	[2614] = {190245},									-- Broodkeeper Diurna
 	[2607] = {182492},									-- Raszageth the Storm-Eater
+
+	-- Aberrus
+    [2688] = {201261},                                    -- Kazzara
+    [2687] = {201774, 201773, 201934},                    -- The Amalgamation Chamber
+    [2693] = {200912, 200913, 200918},                    -- The Forgotten Experiments
+    [2680] = {201320},                                    -- Rashok, the Elder
+    [2682] = {199659, 202791},                            -- Assault of the Zaqali
+    [2689] = {202375},                                    -- The Vigilant Steward, Zskarn
+    [2683] = {201579},                                    -- Magmorax
+    [2684] = {201668},                                    -- Echo of Neltharion
+    [2685] = {205319},                                    -- Scalecommander Sarkareth
 };
 
 local activationTable = {};
