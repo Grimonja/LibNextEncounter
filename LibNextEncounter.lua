@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibNextEncounter", 5;
+local MAJOR, MINOR = "LibNextEncounter", 6;
 local lib = LibStub:NewLibrary(MAJOR, MINOR);
 
 if not lib then return end
@@ -56,6 +56,17 @@ local engageTable =
     [2683] = {201579},                                    -- Magmorax
     [2684] = {201668},                                    -- Echo of Neltharion
     [2685] = {205319},                                    -- Scalecommander Sarkareth
+
+	-- Amirdrassil
+	[2820] = {209333},									  -- Gnarlroot
+	[2709] = {200926},									  -- Igira the Cruel
+	[2737] = {208478},									  -- Volcoross
+	[2728] = {208363, 208365, 208367},					  -- Council of Dreams
+	[2731] = {208445}, 									  -- Larodar, Keeper of the Flame
+	[2708] = {206172},									  -- Nymue, Weaver of the Cycle
+	[2824] = {200927}, 									  -- Smolderon
+	[2786] = {209090}, 									  -- Tindral Sageswift, Seer of the Flame
+	--[2677] = {xxxx},									  -- Fyrakk the Blazing
 };
 
 local activationTable = {};
