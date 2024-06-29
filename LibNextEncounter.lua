@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibNextEncounter", 6;
+local MAJOR, MINOR = "LibNextEncounter", 9;
 local lib = LibStub:NewLibrary(MAJOR, MINOR);
 
 if not lib then return end
@@ -66,7 +66,19 @@ local engageTable =
 	[2708] = {206172},									  -- Nymue, Weaver of the Cycle
 	[2824] = {200927}, 									  -- Smolderon
 	[2786] = {209090}, 									  -- Tindral Sageswift, Seer of the Flame
-	--[2677] = {xxxx},									  -- Fyrakk the Blazing
+	[2677] = {204931},									  -- Fyrakk the Blazing
+
+	-- Nerub'ar Palace
+	[2902] = {215657}, 									  -- Ulgrax the Devourer
+	[2917] = {214502}, 									  -- The Bloodbound Horror
+	[2898] = {214503},									  -- Sikran, Captain of the Sureki
+	[2918] = {214504}, 									  -- Rasha'nan
+	[2919] = {214506}, 									  -- Broodtwister Ovi'nax
+	[2920] = {217748}, 									  -- Nexus-Princess Ky'veza
+	[2921] = {217489, 217491}, 							  -- The Silken Court
+
+	-- YOLO 
+	[2922] = {219778},									  -- Queen Ansurek
 };
 
 local activationTable = {};
