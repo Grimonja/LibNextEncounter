@@ -76,9 +76,7 @@ local engageTable =
 	[2919] = {214506}, 									  -- Broodtwister Ovi'nax
 	[2920] = {217748}, 									  -- Nexus-Princess Ky'veza
 	[2921] = {217489, 217491}, 							  -- The Silken Court
-
-	-- YOLO 
-	[2922] = {219778},									  -- Queen Ansurek
+	[2922] = {218370},									  -- Queen Ansurek
 };
 
 local activationTable = {};
