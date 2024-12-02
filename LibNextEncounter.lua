@@ -6,7 +6,7 @@ if not lib then return end
 lib.callbacks = lib.callbacks or LibStub("CallbackHandler-1.0"):New(lib);
 if not lib.callbacks then error(MAJOR.." requires CallbackHandler"); end
 
-local LibRangeCheck = LibStub("LibRangeCheck-2.0");
+local LibRangeCheck = LibStub("LibRangeCheck-3.0");
 
 local engageTable =
 {
