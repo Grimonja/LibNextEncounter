@@ -1,4 +1,4 @@
-local MAJOR, MINOR = "LibNextEncounter", 9;
+local MAJOR, MINOR = "LibNextEncounter", 10;
 local lib = LibStub:NewLibrary(MAJOR, MINOR);
 
 if not lib then return end
@@ -85,6 +85,16 @@ local engageTable =
 	[3014] = {228458}, 										-- The One-Armed Bandit
 	[3015] = {229953}, 										-- Mug'Zee, Heads of Security
 	[3016] = {231075}, 										-- Chrome King Gallywix
+
+	-- ManaForge Omega 
+	[3132] = {247989}, 										-- Forgeweaver Araz
+	[3135] = {225821}, 										-- Dimensius, the All-Devourin @TODO CHECK THIS
+	[3133] = {237861},                                      -- Fractillus
+	[3122] = {237661, 248404, 237662},                      -- The Soul Hungers
+	[3131] = {233815},                                      -- Loom'ithar
+	[3130] = {233816},                                      -- Soulbinder Naazindhri
+	[3134] = {237763},                                      -- Nexus-King Salhadaar
+	[3129] = {233814},                                      -- Plexus Sentinel
 };
 
 local activationTable = {};
