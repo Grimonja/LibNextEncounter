@@ -88,7 +88,7 @@ local engageTable =
 
 	-- ManaForge Omega 
 	[3132] = {247989}, 										-- Forgeweaver Araz
-	[3135] = {225821}, 										-- Dimensius, the All-Devourin @TODO CHECK THIS
+	[3135] = {241517, 234478, 233824}, 										-- Dimensius, the All-Devourin @TODO CHECK THIS
 	[3133] = {237861},                                      -- Fractillus
 	[3122] = {237661, 248404, 237662},                      -- The Soul Hungers
 	[3131] = {233815},                                      -- Loom'ithar
