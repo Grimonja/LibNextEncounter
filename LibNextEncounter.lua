@@ -136,7 +136,7 @@ local function checkUnit(unit)
 		local guid = UnitGUID(unit);
 		if(guid)then
 			local type, _, _, _, _, npcIDString = strsplit("-",guid);
-			if((type == "Creature" or type == "Vehicle") and npcIDString)then
+			if (type and (type == "Creature" or type == "Vehicle") and npcIDString) then
 				local npcID = tonumber(npcIDString);
 				local encounterID = activationTable[npcID];
 				local customCheckFunc = customCheck[npcID];
