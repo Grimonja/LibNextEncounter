@@ -143,7 +143,7 @@ local function checkUnit(unit)
 				if(encounterID and encounterID ~= lastEncounterActivation and (not customCheckFunc or customCheckFunc(unit)))then
 					local zoneIDTarget = zoneOverrides[npcID];
 					if(not zoneIDTarget or C_Map.GetBestMapForUnit("player") == zoneIDTarget)then
-						local range = LibRangeCheck:GetRange(unit);
+						local range = LibRangeCheck:GetRange(unit) or math.huge;
 						local rangeOverride = rangeActivationOverrides[npcID];
 						if(range <= (rangeOverride or defaultActivationRangeCheck))then
 
