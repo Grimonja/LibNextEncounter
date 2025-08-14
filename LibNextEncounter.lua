@@ -118,9 +118,15 @@ local function kelThuzadHPCheck(unit)
 	return hp > 10000;
 end
 
+local function nexusKingHPCheck(unit)
+	local hp = UnitHealth(unit);
+	return hp > 1;
+end
+
 local customCheck =
 {
 	[175559] = kelThuzadHPCheck,
+	[237763] = nexusKingHPCheck,
 };
 
 -- Zone Overrides -----------------------------------------------------------------------
